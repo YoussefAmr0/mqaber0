@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PhotosController extends Controller
+class ElqatamyaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class PhotosController extends Controller
      */
     public function index()
     {
-        return view("layout.Photos");
+        return view('layout.places.elqatamya');
     }
 
     /**

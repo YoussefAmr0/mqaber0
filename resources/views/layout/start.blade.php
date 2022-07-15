@@ -11,7 +11,8 @@
                 <p class="animate__animated animate__fadeInUp">مقابر واحواش اسلامية للبيع بمساحات مختلفة تبدأ من 20 متر
                     حتى 80
                     متر انظمة متعددة للسداد على 12 شهر او على 24 شهر</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">من نحن</a>
+                <a href="{{ route('start.index') }}#about"
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto">من نحن</a>
             </div>
         </div>
     </div>
@@ -69,7 +70,8 @@
                                 <i class="bi bi-check2-all"></i>
                                 <h4><a href="#">السرعة في تسليم المقابر والمدافن </a></h4>
                                 <p>تمتاز روح و ريحان بالسرعة في عمليات تسليم المقابر والمدافن ،
-                                     كما أنها تتولى تخليص أوراق نقل الملكية الى المشتري وتسهيل إجراءت بيع المقابر والمدافن</p>
+                                    كما أنها تتولى تخليص أوراق نقل الملكية الى المشتري وتسهيل إجراءت بيع المقابر
+                                    والمدافن</p>
                             </div>
                         </div>
                         <div class="col-md-4 mt-4 mt-md-0">
@@ -86,7 +88,8 @@
                             <div class="icon-box1">
                                 <i class="bi bi-card-text"></i>
                                 <h4><a href="#">نمتلك الخبرة في تشطيب المقابر والمدافن</a></h4>
-                                <p> لدينا مقاولين تجهيز وتشطيب للواجهات والتجهيزات الداخلية للمقابر والمدافن بأشكال مختلفة وتتناسب مع متطلبات كل عميل يبحث عن مقابر ومدافن للبيع</p>
+                                <p> لدينا مقاولين تجهيز وتشطيب للواجهات والتجهيزات الداخلية للمقابر والمدافن بأشكال
+                                    مختلفة وتتناسب مع متطلبات كل عميل يبحث عن مقابر ومدافن للبيع</p>
                             </div>
                         </div>
 
@@ -177,7 +180,9 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-1">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/s3.jpg" class="img-fluid" alt="">
+                    <a href="assets/img/s3.jpg" class="glightbox" data-gall="venue-gallery">
+                        <img src="assets/img/s3.jpg" class="img-fluid" alt="">
+                    </a>
                 </div>
             </div>
 
@@ -221,4 +226,456 @@
 
     </div>
 </section><!-- End صور المقابر Section -->
+<!-- ======= Gallery Section ======= -->
+<section id="gallery">
+
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>أماكن المقابر و المدافن</h2>
+        </div>
+    </div>
+    <hr>
+
+    <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر طريق السخنة</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر مدينه السلام</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر مدينه العبور</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر مدينة 15 مايو</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر أكتوبر</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر طريق الفيوم</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر طريق القطاميه</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+                <h4>مقابر مدينه بدر الروبيكي</h4><button type="button" class="btn btn-info">التفاصيل</button>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section><!-- End Gallery Section -->
+
+
+<style>
+    /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(63, 73, 83, 0.8);
+  background-size: cover;
+  position: relative;
+}
+#hero .imag, #hero .imag-inner, #hero .imag-item, #hero .imag-item::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#hero .imag-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero .imag-item::before {
+  content: "";
+  background-color: rgba(30, 35, 40, 0.6);
+}
+#hero .imag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 70px;
+  left: 50px;
+  right: 50px;
+}
+#hero .container {
+  text-align: center;
+}
+#hero h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
+#hero p {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+#hero .imag-inner .imag-item {
+  transition-property: opacity;
+  background-position: center top;
+}
+#hero .imag-inner .imag-item,
+#hero .imag-inner .active.imag-item-start,
+#hero .imag-inner .active.imag-item-end {
+  opacity: 0;
+}
+#hero .imag-inner .active,
+#hero .imag-inner .imag-item-next.imag-item-start,
+#hero .imag-inner .imag-item-prev.imag-item-end {
+  opacity: 1;
+  transition: 0.5s;
+}
+#hero .imag-inner .imag-item-next,
+#hero .imag-inner .imag-item-prev,
+#hero .imag-inner .active.imag-item-start,
+#hero .imag-inner .active.imag-item-end {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+#hero .imag-control-next-icon, #hero .imag-control-prev-icon {
+  background: none;
+  font-size: 30px;
+  line-height: 0;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.5);
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .imag-control-next-icon:hover, #hero .imag-control-prev-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+}
+#hero .imag-indicators li {
+  cursor: pointer;
+  background: #fff;
+  overflow: hidden;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#hero .imag-indicators li.active {
+  opacity: 1;
+  background: #d9232d;
+}
+#hero .btn-get-started {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #d9232d;
+}
+#hero .btn-get-started:hover {
+  background: #df3740;
+}
+@media (max-width: 992px) {
+  #hero {
+    height: 100vh;
+  }
+  #hero .imag-container {
+    top: 8px;
+  }
+}
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero .imag-control-prev, #hero .imag-control-next {
+    width: 5%;
+  }
+}
+@media (max-height: 500px) {
+  #hero {
+    height: 120vh;
+  }
+}
+/*--------------------------------------------------------------
+
+# About
+--------------------------------------------------------------*/
+.about{
+  padding-top: 75px;
+}
+.about .content h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.about .content .desc{
+  font-size: 20px;
+}
+.about .content h4 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services{
+  padding-top: 75px;
+}
+.services .icon-box1 {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px; 
+   background-color: #f8f9fa;
+   height: 300px;
+  text-align: center;
+}
+.services .icon-box1 i {
+  color: #d9232d;
+  font-size: 40px;
+}
+.services .icon-box1 h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.services .icon-box1 h4 a {
+  color: #556270;
+  transition: 0.3s;
+}
+.services .icon-box1:hover h4 a {
+  color: #d9232d;
+}
+.services .icon-box1 p {
+  font-size: 14pt;
+}
+.services .icon-box2 {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+
+}
+.services .icon-box2 i {
+  float: left;
+  color: #d9232d;
+  font-size: 40px;
+}
+.services .icon-box2 h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.services .icon-box2 h4 a {
+  color: #556270;
+  transition: 0.3s;
+}
+.services .icon-box2:hover h4 a {
+  color: #d9232d;
+}
+.services h5{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.places h3 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: #556270;
+  transition: 0.3s;
+}
+.places ul li {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #556270;
+  transition: 0.3s;
+}
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio{
+  margin-top: 50px;
+  padding-top: 90px;
+}
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #d9232d;
+}
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(85, 98, 112, 0.6);
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(85, 98, 112, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: white;
+}
+.portfolio .portfolio-wrap:hover::before {
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+/* # Gallery Section
+--------------------------------------------------------------*/
+#gallery {
+  padding: 100px 0;
+  overflow: hidden;
+  text-align: center;
+
+}
+#gallery .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+#gallery .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid rgba(1, 11, 16, 0.9);
+}
+#gallery .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgba(1, 11, 16, 0.9);
+}
+#gallery .swiper-slide-active {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  #gallery .swiper-wrapper {
+    padding: 40px 0;
+    text-align: center;
+
+  }
+  #gallery .swiper-slide-active {
+    border: 5px solid rgba(1, 11, 16, 0.9);
+    padding: 4px;
+    background: #fff;
+    text-align: center;
+    z-index: 1;
+    transform: scale(1.15);
+    margin-top: 6px;
+  }
+}
+</style>
+
 @endsection
