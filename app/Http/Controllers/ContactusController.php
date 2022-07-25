@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\contactus;
 use Illuminate\Http\Request;
 
 class ContactusController extends Controller
@@ -13,7 +14,8 @@ class ContactusController extends Controller
      */
     public function index()
     {
-        return view("layout.Contactus");
+        $contactus = contactus::all();
+        return view("layout.Contactus", compact('contactus'));
     }
 
     /**
@@ -23,7 +25,7 @@ class ContactusController extends Controller
      */
     public function create()
     {
-        //
+        return view("layout.Contactus");
     }
 
     /**
@@ -34,7 +36,14 @@ class ContactusController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $contactus=new contactus();
+        $contactus->name = $request->input('name');
+        $contactus->mobile = $request->input('mobile');
+        $contactus->place = $request->input('place');
+        $contactus->day = $request->input('day');
+        $contactus->time = $request->input('time');
+        $contactus->save();
+        return redirect()->back();
     }
 
     /**

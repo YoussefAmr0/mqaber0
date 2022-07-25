@@ -34,7 +34,7 @@ Route::resource("/badr",BadrController::class);
 Route::resource("/elfayoum",ElfayoumController::class);
 Route::resource("/elobour",ElobourController::class);
 Route::resource("/elqatamya",ElqatamyaController::class);
-Route::resource("/ocotober",OctoberController::class);
+Route::resource("/october",OctoberController::class);
 Route::resource("/elsokhna",ElsokhnaController::class);
 Route::resource("/may",MayController::class);
 

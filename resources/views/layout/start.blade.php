@@ -143,6 +143,15 @@
                     </div>
 
                 </div>
+                <h3>مميزات التعامل مع روح و ريحان</h3><br>
+                <b style="font-size: 18px;">هناك العديد من المزايا التي توجد في روح و ريحان  للمقابر حيث أنها توفر العديد من 
+                  المميزات المختلفة التي تحتاجها عند شراء مقبرة أو مدفن في مصر ، مثل:</b><br>
+                <ul>
+                  <li>تعرض روح و ريحان مقابر للبيع ومدافن للبيع بمساحات مختلفة حسب رغبة العملاء لدينا أيضًا ساحات قانونية في معظم مناطق مصر. </li>
+                  <li>كما تعمل الشركة على تسهيل حصول العملاء بسرعة على أرض المقبرة والتسجيل في السجل العقاري بمجرد التعاقد على المقبرة أو المدفن.</li>
+                  <li>إذا كنت تبحث عن مقابر للبيع أو مدافن للبيع ، فيجب أن تكون قريبة من المكان الذي تعيش فيه وأن تكون مقبرة لعائلتك وكذلك قريبة من جميع وسائل النقل. </li>
+                  <li>تتميز روح و ريحان للمقابر بتوفير العديد من المساحات المختلفة للبيع في المقابر ويمكنك اختيار المساحة المناسبة لك.</li>
+                </ul>
             </div>
 
         </div>
@@ -150,7 +159,7 @@
     </div>
 </section><!-- End About Section -->
 
-<section id="portfolio" class="portfolio">
+{{-- <section id="portfolio" class="portfolio">
     <div class="container">
 
         <div class="row">
@@ -225,7 +234,8 @@
         </div>
 
     </div>
-</section><!-- End صور المقابر Section -->
+</section><!-- End صور المقابر Section --> --}}
+
 <!-- ======= Gallery Section ======= -->
 <section id="gallery">
 
@@ -236,31 +246,31 @@
     </div>
     <hr>
 
-    <div class="gallery-slider swiper">
+    <div class="gallery-slider swiper container">
         <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر طريق السخنة</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر طريق السخنة</h4><a  href="{{route('elsokhna.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر مدينه السلام</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر مدينه السلام</h4><a href="{{route('elslam.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر مدينه العبور</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر مدينه العبور</h4><a href="{{route('elobour.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر مدينة 15 مايو</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر مدينة 15 مايو</h4><a href="{{route('may.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر أكتوبر</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر أكتوبر</h4><a href="{{route('october.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر طريق الفيوم</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر طريق الفيوم</h4><a href="{{route('elfayoum.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر طريق القطاميه</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر طريق القطاميه</h4><a href="{{route('elqatamya.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر مدينه بدر الروبيكي</h4><button type="button" class="btn btn-info">التفاصيل</button>
+                <h4>مقابر مدينه بدر الروبيكي</h4><a href="{{route('badr.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
 
         </div>

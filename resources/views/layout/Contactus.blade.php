@@ -41,28 +41,39 @@
 
 <div class="col-lg-8 mt-5 mt-lg-0">
 
-  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-    <div class="row">
-      <div class="col-md-6 form-group">
-        <input type="text" name="name" class="form-control" id="name" placeholder="الاسم" required>
-      </div>
-      <div class="col-md-6 form-group mt-3 mt-md-0">
-        <input type="email" class="form-control" name="email" id="email" placeholder="البريد الالكتروني" required>
-      </div>
-    </div>
-    <div class="form-group mt-3">
-      <input type="text" class="form-control" name="mobile" id="mobile" placeholder="رقم التليفون" required>
-    </div>
-    <div class="form-group mt-3">
-      <textarea class="form-control" name="message" rows="5" placeholder="الاستفسار" required></textarea>
-    </div>
-    <div class="my-3">
-      <div class="loading">جاري التحميل</div>
-      <div class="error-message"></div>
-      <div class="sent-message">تم الاسال الاستفسار ز شكرا لتواصلكم معنا</div>
-    </div>
-    <div class="text-center"><button type="submit">ارسل</button></div>
-  </form>
+  <form action="{{route('contactus.store')}}" method="POST" role="form" class="php-email-form">
+    @csrf
+    <div class="mt-3 form-group">
+      <input type="text" name="name" class="form-control" id="name" placeholder="الاسم" required>
+  </div>
+  <div class="form-group mt-3">
+    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="رقم التليفون" required>
+  </div>
+
+   <div class="mb-3">
+    <select id="disabledSelect" class="form-select" name="place">
+      <option selected disabled>برجاء اختيار المنطقه</option>
+      <option value="مدينه السلام">مدينه السلام</option>
+      <option value="مدينه العبور">مدينه العبور </option>
+      <option value="مدينه 15 مايو">مدينه 15 مايو </option>
+      <option value="اكتوير">اكتوير</option>
+      <option value="طريق الفيوم">طريق الفيوم</option>
+      <option value="طريق القطاميه">طريق القطاميه</option>
+      <option value="طريق السخنة بعد بوابات القاهرة ب5 كيلو أمام العاصمة الإدارية الجديدة">طريق السخنة بعد بوابات القاهرة ب5 كيلو أمام العاصمة الإدارية الجديدة</option>
+      <option value="مدينه بدر الروبيكي">مدينه بدر الروبيكي</option>
+    </select>
+  </div>
+
+  <div class="row">
+  <div class="col-md-6 form-group">
+    <input type="date" class="form-control" name="day" id="place" placeholder="اليوم" required>
+  </div>
+  <div class="col-md-6 form-group">
+    <input type="time" class="form-control" name="time" id="place" placeholder="الوقت" required>
+  </div>
+</div>
+  <div class="text-center"><button type="submit">ارسال</button></div>
+</form>
 
 </div>
 

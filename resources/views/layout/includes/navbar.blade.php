@@ -10,13 +10,13 @@
             <li><a class="nav-link scrollto active" href="{{ route('start.index')}}#hero">الرئيسية</a></li>
             <li><a class="nav-link scrollto" href="{{ route('start.index') }}#about">من نحن</a></li>
             <li><a class="nav-link scrollto" href="{{ route('start.index') }}#services">مميزاتنا</a></li>
-            <li><a class="nav-link scrollto" href="{{ route('start.index') }}#portfolio">الصور</a></li>
+            {{-- <li><a class="nav-link scrollto" href="{{ route('start.index') }}#portfolio">الصور</a></li> --}}
             <li class="dropdown"><a href="{{ route('start.index')}}#gallery"><span>أماكن المقابر و المدافن </span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="{{ route('elslam.index') }}">مدينة السلام </a></li>
                 <li><a href="{{ route('elobour.index') }}">مدينة العبور </a></li>
                 <li><a href="{{ route('may.index') }}"> مدينة 15 مايو</a></li>
-                <li><a href="{{ route('ocotober.index') }}"> أكتوبر</a></li>
+                <li><a href="{{ route('october.index') }}"> أكتوبر</a></li>
                 <li><a href="{{ route('elfayoum.index') }}">طريق الفيوم</a></li>
                 <li><a href="{{ route('elqatamya.index') }}"> طريق القطامية</a></li>
                 <li><a href="{{ route('elsokhna.index') }}"> طريق السخنة بعد بوابات القاهرة ب5 كيلو أمام العاصمة الإدارية الجديدة</a></li>
