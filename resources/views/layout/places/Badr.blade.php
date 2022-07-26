@@ -86,67 +86,36 @@
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="/assets/img/مدافن مدينه بدر 40 متر/badr1.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="/assets/img/مدافن مدينه بدر 40 متر/badr1.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="/assets/img/مدافن مدينه بدر 40 متر/badr2.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="/assets/img/مدافن مدينه بدر 40 متر/badr2.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="/assets/img/مدافن مدينه بدر 40 متر/badr3.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="/assets/img/مدافن مدينه بدر 40 متر/badr3.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="/assets/img/مدافن مدينه بدر 40 متر/badr5.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="/assets/img/مدافن مدينه بدر 40 متر/badr5.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-4">
-      <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4">
-      <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4">
-      <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4">
-      <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </div>
 
   </div>
 </div>

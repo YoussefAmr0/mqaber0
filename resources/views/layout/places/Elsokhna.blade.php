@@ -86,68 +86,62 @@
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna1.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna1.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna3.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna3.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna9.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna9.jpeg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+      <div class="venue-gallery">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna11.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:500px; width:100%; " src="assets/img/مدافن السخنه 40 متر/elsokhna11.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna13.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna13.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
-
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna17.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna17.jpeg" alt="" class="img-fluid">
         </a>
       </div>
-    </div>
-
+    </div> <div class="col-lg-3 col-md-4">
+      <div class="venue-gallery">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna22.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna22.jpeg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div> 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن السخنه 40 متر/elsokhna35.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img src="assets/img/مدافن السخنه 40 متر/elsokhna35.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
-
-    <div class="col-lg-3 col-md-4">
-      <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4">
-      <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </div>
-
   </div>
 </div>
 

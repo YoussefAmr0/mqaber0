@@ -81,69 +81,69 @@
   </div><hr>
 </div>
 
-<div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
+<div class="container-fluid venue-gallery-container"  data-aos="fade-up" data-aos-delay="100">
   <div class="row g-0">
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam1.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%; " src="assets/img/مدافن مدينه السلام 28 متر/elsalam1.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam11.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%; " src="assets/img/مدافن مدينه السلام 28 متر/elsalam11.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam20.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%;" src="assets/img/مدافن مدينه السلام 28 متر/elsalam20.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam3.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%;" src="assets/img/مدافن مدينه السلام 28 متر/elsalam3.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam13.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%; " src="assets/img/مدافن مدينه السلام 28 متر/elsalam13.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam10.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%; " src="assets/img/مدافن مدينه السلام 28 متر/elsalam10.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam2.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img style="height:400px; width:100%; " src="assets/img/مدافن مدينه السلام 28 متر/elsalam2.jpeg" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="assets/img/مدافن مدينه السلام 28 متر/elsalam5.jpeg" class="glightbox" data-gall="venue-gallery">
+          <img  style="height:400px; width:100%; " src="assets/img/مدافن مدينه السلام 28 متر/elsalam5.jpeg" alt="" >
         </a>
       </div>
     </div>
