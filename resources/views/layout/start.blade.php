@@ -35,22 +35,26 @@
                 <hr>
 
             </div>
-            <div class="desc col-lg-12">
-                <h3> مقابر واحواش اسلامية للبيع بمساحات مختلفة تبدأ من 20 متر حتى 80 متر انظمة متعددة للسداد على 12 شهر
-                    او على 24 شهر </h3><br>
+            <div class="desc col-lg-7">
+                <h3>مدافن للبيع ومقابر للبيع شرعية جاهزة ومرخصة بالعديد من مناطق الجمهورية</h3><br>
                 <p>
                     في حالة كنت تبحث عن مدافن للبيع فإن روح و ريحان للمقابر تقدم لك أفضل خدمات بيع وشراء المقابر
                     والمدافن
                     بأفضل الأسعار وبأجود خامات البناء وتعتبر الشركة من
-                    الشركات في تقديم خدمات بيع المدافن الجاهزة ومن أجودها لما تقدمه من خدمات مميزة لعملائها الكرام
-                </p>
-                <p class="fst-italic">
-                    وذلك لأن العربي للمقابر تقوم بتقديم أفضل أسعار المدافن والمقابر لعملائها بالإضافة
+                  الشركات في تقديم خدمات بيع المدافن الجاهزة ومن أجودها لما تقدمه من خدمات مميزة لعملائها الكرام.
+                <br><br>
+                    وذلك لأن روح و ريحان للمقابر تقوم بتقديم أفضل أسعار المدافن والمقابر لعملائها بالإضافة 
                     إلى خدمات ما بعد البيع وإنهاء الإجراءات والتراخيص فور التعاقد على المدافن وتسليم المدفن في نفس اليوم
-                    مباشرة
+                    مباشرة  كما أنها تتميز بالأمانة مع الالتزام بالمصداقية وتنفيذ جميع الاتفاقات التي تمت من خلال العقود المكتوبة بينهم.
                 </p>
+                <p>شركة روح و ريحان للمقابر هي شركة متخصصة في بيع  المقابر ، 
+                  ولديها الكثير من الخبرات والتجارب في مختلف المناطق ، حيث أنها سبق لها التعامل مع العديد من العملاء في مختلف أنحاء الجمهورية
+                ، لذلك لديها القدرة على العثور على ما تبحث عنه  من مقابر ومدافن للبيع.</p>
+                
             </div>
-
+            <div class="desc col-lg-5">
+              <img style="width:110%; height:110%; border:solid black; border-radius:20px" src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna4.jpeg') }}" alt="">
+          </div>
 
         </div>
 
@@ -62,7 +66,9 @@
 
             <!-- ======= Services Section ======= -->
             <div id="services" class="services">
-                <h5>مميزات روح وريحان</h5>
+                <h5>مميزات روح و ريحان</h5>
+                <p style="font-size:16pt;">يتوفر لدى روح و ريحان للمقابر مدافن للبيع بمساحات مختلفة حسب رغبة العملاء
+                   كما يتوافر لدينا أحواش ولحود شرعية  في معظم المناطق في مصر، وتعمل الشركة على التيسير على العملاء بسرعة التسليم للمدافن والتسجيل العقاري للمدافن بمجرد التعاقد ، كما أن جميع المقابر لدينا شرعية ومرخصة وعلى جودة عالية من التشطيبات.</p>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 mt-4 mt-md-0">
@@ -145,12 +151,12 @@
                 </div>
                 <h3>مميزات التعامل مع روح و ريحان</h3><br>
                 <b style="font-size: 18px;">هناك العديد من المزايا التي توجد في روح و ريحان  للمقابر حيث أنها توفر العديد من 
-                  المميزات المختلفة التي تحتاجها عند شراء مقبرة أو مدفن في مصر ، مثل:</b><br>
-                <ul>
-                  <li>تعرض روح و ريحان مقابر للبيع ومدافن للبيع بمساحات مختلفة حسب رغبة العملاء لدينا أيضًا ساحات قانونية في معظم مناطق مصر. </li>
-                  <li>كما تعمل الشركة على تسهيل حصول العملاء بسرعة على أرض المقبرة والتسجيل في السجل العقاري بمجرد التعاقد على المقبرة أو المدفن.</li>
-                  <li>إذا كنت تبحث عن مقابر للبيع أو مدافن للبيع ، فيجب أن تكون قريبة من المكان الذي تعيش فيه وأن تكون مقبرة لعائلتك وكذلك قريبة من جميع وسائل النقل. </li>
-                  <li>تتميز روح و ريحان للمقابر بتوفير العديد من المساحات المختلفة للبيع في المقابر ويمكنك اختيار المساحة المناسبة لك.</li>
+                  المميزات المختلفة التي تحتاجها عند شراء مقبرة أو مدفن في مصر ، مثل:</b><br><br>
+                <ul style="font-size: 14pt;">
+                  <li>تعرض روح و ريحان مقابر للبيع ومدافن للبيع بمساحات مختلفة حسب رغبة العملاء لدينا أيضًا ساحات قانونية في معظم مناطق مصر. </li><br>
+                  <li>كما تعمل الشركة على تسهيل حصول العملاء بسرعة على أرض المقبرة والتسجيل في السجل العقاري بمجرد التعاقد على المقبرة أو المدفن.</li><br>
+                  <li>إذا كنت تبحث عن مقابر للبيع أو مدافن للبيع ، فيجب أن تكون قريبة من المكان الذي تعيش فيه وأن تكون مقبرة لعائلتك وكذلك قريبة من جميع وسائل النقل. </li><br>
+                  <li>تتميز روح و ريحان للمقابر بتوفير العديد من المساحات المختلفة للبيع في المقابر ويمكنك اختيار المساحة المناسبة لك.</li><br>
                 </ul>
             </div>
 
@@ -248,28 +254,28 @@
 
     <div class="gallery-slider swiper container">
         <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img  style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna1.jpeg')}}" class="img-fluid" alt="">
                 <h4>مقابر طريق السخنة</h4><a  href="{{route('elsokhna.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن مدينه السلام 28 متر/elsalam1.jpeg')}}" class="img-fluid" alt="">
                 <h4>مقابر مدينه السلام</h4><a href="{{route('elslam.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن مدينه العبور 25 متر/obour1.jpeg')}}" class="img-fluid" alt="">
                 <h4>مقابر مدينه العبور</h4><a href="{{route('elobour.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/حوش مدينه 15 مايو 21 متر/may1.jpeg')}}" class="img-fluid" alt="">
                 <h4>مقابر مدينة 15 مايو</h4><a href="{{route('may.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
                 <h4>مقابر أكتوبر</h4><a href="{{route('october.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
                 <h4>مقابر طريق الفيوم</h4><a href="{{route('elfayoum.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
                 <h4>مقابر طريق القطاميه</h4><a href="{{route('elqatamya.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
-            <div class="swiper-slide"><img src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
+            <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن مدينه بدر 40 متر/badr1.jpeg')}}" class="img-fluid" alt="">
                 <h4>مقابر مدينه بدر الروبيكي</h4><a href="{{route('badr.index')}}" class="btn btn-info">التفاصيل</a>
             </div>
 
