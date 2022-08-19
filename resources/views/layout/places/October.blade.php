@@ -8,6 +8,8 @@
       <div class="imag-container">
           <div class="container">
               <h2 class="animate__animated animate__fadeInDown"><span> مقابر مدينه اكتوبر</span></h2>
+              <a href="{{ route('contactus.index') }}"
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto">احجز معينه مجانيه</a>
           </div>
       </div>
   </div>

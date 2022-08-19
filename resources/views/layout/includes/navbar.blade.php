@@ -2,12 +2,12 @@
       <div class="container d-flex justify-content-between">
         
         <div class="logo">
-          <h1><a href="{{ route('start.index')}}#hero"><img src="./assets/img/profile nav.png" alt=""></a></h1>
+          <h1><a href="{{ route('start.index')}}#الرئيسيه"><img src="./assets/img/profile nav.png" alt=""></a></h1>
         </div>
   
         <nav id="navbar" class="navbar ">
           <ul>
-            <li><a class="nav-link scrollto active" href="{{ route('start.index')}}#hero">الرئيسية</a></li>
+            <li><a class="nav-link scrollto active" href="{{ route('start.index')}}#الرئيسيه">الرئيسية</a></li>
             <li><a class="nav-link scrollto" href="{{ route('start.index') }}#about">من نحن</a></li>
             <li><a class="nav-link scrollto" href="{{ route('start.index') }}#services">مميزاتنا</a></li>
             {{-- <li><a class="nav-link scrollto" href="{{ route('start.index') }}#portfolio">الصور</a></li> --}}

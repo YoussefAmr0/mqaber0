@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
 
-
+  <link href="{{asset('assets/img/profile nav.png')}}" rel="icon">
   <!-- Google Fonts -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -8,10 +8,9 @@
                         <h3>روح وريحان مقابر اسلامية</h3>
                         <p>
                             العنوان <br>
-                            -------<br><br>
+                            <br><br>
                             <strong>البريد الالكتروني:</strong> hamadaa_shalaby@hotmail.com<br>
                         </p>
-
                     </div>
                 </div>
 
@@ -62,7 +61,7 @@
                             target="_blank"><i class="bi bi-facebook"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=201003064001&app=facebook&entry_point=page_cta&fbclid=IwAR1mqcw3o6BCsm1DZM4jBLXNFaBi6sS__WINOXz2ghkcsR1PoNnGNwObG84"
                             class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
-                        <a href="#" class="messenger"><i class="bi bi-messenger" target="_blank"></i></a>
+                        <a href="https://www.messenger.com/t/493739884086568/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792" class="messenger"><i class="bi bi-messenger" target="_blank"></i></a>
                     </div>
 
                 </div>

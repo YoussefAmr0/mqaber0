@@ -1,7 +1,7 @@
 @extends('layout.Admin')
 @section('section')
 <!-- ======= background image Section ======= -->
-<section id="hero">
+<section id="الرئيسيه">
 
     <!-- Slide 1 -->
     <div class="imag-item active" style="background-image: url(assets/img/hl.jpg)">
@@ -255,28 +255,28 @@
     <div class="gallery-slider swiper container">
         <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><img  style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna1.jpeg')}}" class="img-fluid" alt="">
-                <h4>مقابر طريق السخنة</h4><a  href="{{route('elsokhna.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر طريق السخنة</h4><a  href="{{route('elsokhna.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن مدينه السلام 28 متر/elsalam1.jpeg')}}" class="img-fluid" alt="">
-                <h4>مقابر مدينه السلام</h4><a href="{{route('elslam.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر مدينه السلام</h4><a href="{{route('elslam.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن مدينه العبور 25 متر/obour1.jpeg')}}" class="img-fluid" alt="">
-                <h4>مقابر مدينه العبور</h4><a href="{{route('elobour.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر مدينه العبور</h4><a href="{{route('elobour.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/حوش مدينه 15 مايو 21 متر/may1.jpeg')}}" class="img-fluid" alt="">
-                <h4>مقابر مدينة 15 مايو</h4><a href="{{route('may.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر مدينة 15 مايو</h4><a href="{{route('may.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر أكتوبر</h4><a href="{{route('october.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر أكتوبر</h4><a href="{{route('october.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر طريق الفيوم</h4><a href="{{route('elfayoum.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر طريق الفيوم</h4><a href="{{route('elfayoum.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="assets/img/ريحان1.jpg" class="img-fluid" alt="">
-                <h4>مقابر طريق القطاميه</h4><a href="{{route('elqatamya.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر طريق القطاميه</h4><a href="{{route('elqatamya.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
             <div class="swiper-slide"><img style="height: 300px; width:300px;" src="{{asset('assets/img/مدافن مدينه بدر 40 متر/badr1.jpeg')}}" class="img-fluid" alt="">
-                <h4>مقابر مدينه بدر الروبيكي</h4><a href="{{route('badr.index')}}" class="btn btn-info">التفاصيل</a>
+                <h4>مقابر مدينه بدر الروبيكي</h4><a href="{{route('badr.index')}}" class="btn btn-danger">التفاصيل</a>
             </div>
 
         </div>
@@ -290,30 +290,30 @@
     /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#الرئيسيه {
   width: 100%;
   height: 100vh;
   background-color: rgba(63, 73, 83, 0.8);
   background-size: cover;
   position: relative;
 }
-#hero .imag, #hero .imag-inner, #hero .imag-item, #hero .imag-item::before {
+#الرئيسيه .imag, #الرئيسيه .imag-inner, #الرئيسيه .imag-item, #الرئيسيه .imag-item::before {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
 }
-#hero .imag-item {
+#الرئيسيه .imag-item {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#hero .imag-item::before {
+#الرئيسيه .imag-item::before {
   content: "";
   background-color: rgba(30, 35, 40, 0.6);
 }
-#hero .imag-container {
+#الرئيسيه .imag-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,44 +323,44 @@
   left: 50px;
   right: 50px;
 }
-#hero .container {
+#الرئيسيه .container {
   text-align: center;
 }
-#hero h2 {
+#الرئيسيه h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
 }
-#hero p {
+#الرئيسيه p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
 }
-#hero .imag-inner .imag-item {
+#الرئيسيه .imag-inner .imag-item {
   transition-property: opacity;
   background-position: center top;
 }
-#hero .imag-inner .imag-item,
-#hero .imag-inner .active.imag-item-start,
-#hero .imag-inner .active.imag-item-end {
+#الرئيسيه .imag-inner .imag-item,
+#الرئيسيه .imag-inner .active.imag-item-start,
+#الرئيسيه .imag-inner .active.imag-item-end {
   opacity: 0;
 }
-#hero .imag-inner .active,
-#hero .imag-inner .imag-item-next.imag-item-start,
-#hero .imag-inner .imag-item-prev.imag-item-end {
+#الرئيسيه .imag-inner .active,
+#الرئيسيه .imag-inner .imag-item-next.imag-item-start,
+#الرئيسيه .imag-inner .imag-item-prev.imag-item-end {
   opacity: 1;
   transition: 0.5s;
 }
-#hero .imag-inner .imag-item-next,
-#hero .imag-inner .imag-item-prev,
-#hero .imag-inner .active.imag-item-start,
-#hero .imag-inner .active.imag-item-end {
+#الرئيسيه .imag-inner .imag-item-next,
+#الرئيسيه .imag-inner .imag-item-prev,
+#الرئيسيه .imag-inner .active.imag-item-start,
+#الرئيسيه .imag-inner .active.imag-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
-#hero .imag-control-next-icon, #hero .imag-control-prev-icon {
+#الرئيسيه .imag-control-next-icon, #الرئيسيه .imag-control-prev-icon {
   background: none;
   font-size: 30px;
   line-height: 0;
@@ -376,11 +376,11 @@
   align-items: center;
   justify-content: center;
 }
-#hero .imag-control-next-icon:hover, #hero .imag-control-prev-icon:hover {
+#الرئيسيه .imag-control-next-icon:hover, #الرئيسيه .imag-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
 }
-#hero .imag-indicators li {
+#الرئيسيه .imag-indicators li {
   cursor: pointer;
   background: #fff;
   overflow: hidden;
@@ -391,11 +391,11 @@
   opacity: 0.6;
   transition: 0.3s;
 }
-#hero .imag-indicators li.active {
+#الرئيسيه .imag-indicators li.active {
   opacity: 1;
   background: #d9232d;
 }
-#hero .btn-get-started {
+#الرئيسيه .btn-get-started {
   font-family: 'Cairo', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -410,29 +410,29 @@
   animation-delay: 0.8s;
   background: #d9232d;
 }
-#hero .btn-get-started:hover {
+#الرئيسيه .btn-get-started:hover {
   background: #df3740;
 }
 @media (max-width: 992px) {
-  #hero {
+  #الرئيسيه {
     height: 100vh;
   }
-  #hero .imag-container {
+  #الرئيسيه .imag-container {
     top: 8px;
   }
 }
 @media (max-width: 768px) {
-  #hero h2 {
+  #الرئيسيه h2 {
     font-size: 28px;
   }
 }
 @media (min-width: 1024px) {
-  #hero .imag-control-prev, #hero .imag-control-next {
+  #الرئيسيه .imag-control-prev, #الرئيسيه .imag-control-next {
     width: 5%;
   }
 }
 @media (max-height: 500px) {
-  #hero {
+  #الرئيسيه {
     height: 120vh;
   }
 }
