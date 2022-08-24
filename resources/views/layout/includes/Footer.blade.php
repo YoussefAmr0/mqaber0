@@ -7,7 +7,8 @@
                     <div class="footer-info">
                         <h3>روح وريحان مقابر اسلامية</h3>
                         <p>
-                            العنوان <br>
+                            <p><strong>العنوان:</strong> 86 شارع عبد الرحمن الرفاعي محليه 6 ج الحي الاول مدينة العبور ..العمارة بوجهة الشارع لونها ابيض الدور الاول</p>
+                            <br>
                             <br><br>
                             <strong>البريد الالكتروني:</strong> hamadaa_shalaby@hotmail.com<br>
                         </p>
@@ -48,27 +49,26 @@
                     </div>
                 </div>
 
-                <div class="tel col-lg-3 col-md-6 footer-newsletter row">
-                    <div class=" col-12">
-                        <a class="" href="tel:+01098528585" aria-label="رقم التواصل">
-                            <h4 class="" style="font-size:21px;"><i class="text-center bi bi-phone"></i> رقم التواصل:
-                            </h4>
-                            <div class="" style="padding-right:24px ;">01098528585</div>
-                        </a>
-                    </div>
-                    <div class="social-links col-12">
+                <div class="tel col-lg-3 col-md-6 footer-newsletter row" >
+                    <div class="col-12">
+                        <div class="logo">
+                            <h1><a href="{{ route('start.index')}}#الرئيسيه"><img src="./assets/img/profile nav.png" alt=""></a></h1>
+                          </div>
+                            </div>
+                    <div class="social-links col-6" style="margin-right:60px;" >
                         <a href="https://m.facebook.com/rwhwarayhan/?ref=page_internal&_rdr" class="facebook"
                             target="_blank"><i class="bi bi-facebook"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=201003064001&app=facebook&entry_point=page_cta&fbclid=IwAR1mqcw3o6BCsm1DZM4jBLXNFaBi6sS__WINOXz2ghkcsR1PoNnGNwObG84"
                             class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
                         <a href="https://www.messenger.com/t/493739884086568/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792" class="messenger"><i class="bi bi-messenger" target="_blank"></i></a>
                     </div>
+                </div>
+                    
 
                 </div>
 
             </div>
         </div>
-    </div>
     <!--
     <div class="container">
       <div class="copyright">
@@ -217,7 +217,7 @@
         }
 
         #footer a:hover h4 {
-            color: #f8cc07;
+            color: #000000;
         }
 
         #footer .footer-top .footer-links ul li:first-child {
@@ -242,10 +242,22 @@
             position: relative;
             border-radius: 4px;
         }
-
-        #footer .copyright {
-            text-align: center;
-            padding-top: 30px;
+        #footer .logo h1 {
+        font-size: 36px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
         }
-
-    </style>
+        #footer .logo h1 a, #footer .logo h1 a:hover {
+        color: #fff;
+        text-decoration: none;
+        }
+        #footer .logo img {
+        padding: 0;
+        margin: 0;
+        max-height: 150px;
+        }    
+  </style>

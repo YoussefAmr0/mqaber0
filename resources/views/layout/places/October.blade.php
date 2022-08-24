@@ -7,9 +7,9 @@
   <div class="imag-item active" style="background-image: url(assets/img/ريحان3.jpg)">
       <div class="imag-container">
           <div class="container">
-              <h2 class="animate__animated animate__fadeInDown"><span> مقابر مدينه اكتوبر</span></h2>
+              <h2 class="animate__animated animate__fadeInDown"><span>مقابر مدينه اكتوبر الفيوم و الواحات</span></h2>
               <a href="{{ route('contactus.index') }}"
-                    class="btn-get-started animate__animated animate__fadeInUp scrollto">احجز معينه مجانيه</a>
+                    class="btn-get-started animate__animated animate__fadeInUp scrollto">احجز معاينه مجانيه</a>
           </div>
       </div>
   </div>
@@ -31,28 +31,12 @@
         </div>
         <div class="desc col-lg-12">
 
-          <h4>تفاصيل التشطيب الداخلى</h4>
-          <p class="fst-italic">
-          <ul>
-            <li>يتكون من ( 2 عين + استراحة)</li>
-            <h3>العين الاولي :</h3>
-            <li>4.20 متر في 2.10 (الرجالي)</li>
-            <h3>العين الثانيه :</h3>
-            <li>2.70 متر في 2.10 (الحريمي)</li>
-
-          </ul>
-              
-          </p>
-      </div><hr>
-        <div class="desc col-lg-12">
-
           <h4>لماذا تعتبر شركة روح و ريحان للمقابر أفضل خيار لمقابر للبيع بمدينه اكتوبر؟
           </h4>
           <p class="fst-italic">
             <ul>
-              <li>عندما تشتري مقبرة من شركة روح و ريحان ، فإنك تصبح المالك الوحيد للمقبرة أو المقبرة نقوم بتسجيله باسمك في السجل العقاري. </li>
-              <li> تتميز مقابرنا بتصميمها المميز وجودة تشطيبها العالية نحن نضمن أن تكون هادئة وجذابة
-                 ، ونوفر أماكن جلوس عندما يأتي الزوار إلى المقبرة.</li>
+              <li>عندما تشتري مقبرة من شركة روح و ريحان ، فإنك تصبح المالك الوحيد للمقبرة أو المقبرة نقوم بتسجيله باسمك في الشهر العقاري. </li>
+              <li> تتميز مقابرنا بتصميمها المميز وجودة تشطيبها العالية.</li>
             </ul>
           </p>
       </div><hr>
@@ -60,8 +44,8 @@
       <h4>مقابر ومدافن مدينه اكتوبر ومميزات شركة روح و ريحان للمقابر</h4>
         <p class="fst-italic">
           <ul>
-            <li>نحرص على تنفيذ أحدث التصميمات العالمية 
-              ، حيث يتم وضع بوابة حديدية على كل مقبرة مع مكان لكتابة لقب العائلة عند مدخل مقبرة الوحوش.</li>
+            <li>نحرص على تنفيذ أحدث التصميمات الداخليه و الخارجيه
+              ، حيث يتم وضع بوابة حديدية على كل مقبرة مع مكان لكتابة لقب العائلة عند مدخل المدفن.</li>
               <li>نوفر مساحات مختلفة ، ومقابر مقسمة للرجال والنساء ، وجميع أسعارنا تناسب إمكانيات الجميع.</li>
               <li>خدمة العملاء لدينا متاحة على مدار 24 ساعة لتلقي مكالماتك واستفساراتك عن الأسعار والأماكن.</li>
               <li>تحرص شركتنا على شراء المقابر في مواقع استراتيجية في كل مدينة ، حتى يسهل عليك الذهاب إلى المقابر وزيارة الأقارب هناك.</li>
@@ -88,64 +72,64 @@
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن مدينه أكتوبر/october2.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img src="{{asset('assets/img/مدافن مدينه أكتوبر/october2.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن مدينه أكتوبر/october1.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img src="{{asset('assets/img/مدافن مدينه أكتوبر/october1.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن مدينه السلام 28 متر/elsalam20.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img src="{{asset('assets/img/مدافن مدينه السلام 28 متر/elsalam20.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna14.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna14.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna17.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna17.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna35.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna35.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna34.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img style="height: 280px; width:100%" src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna34.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-4">
       <div class="venue-gallery">
-        <a href="assets/img/ريحان3.jpg" class="glightbox" data-gall="venue-gallery">
-          <img src="assets/img/ريحان3.jpg" alt="" class="img-fluid">
+        <a href="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna22.jpeg')}}" class="glightbox" data-gall="venue-gallery">
+          <img style="height: 280px;" src="{{asset('assets/img/مدافن السخنه 40 متر/elsokhna22.jpeg')}}" alt="" class="img-fluid">
         </a>
       </div>
     </div>

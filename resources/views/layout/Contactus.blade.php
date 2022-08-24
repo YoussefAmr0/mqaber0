@@ -6,7 +6,8 @@
 <div class="container">
 
 <div>
-<iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+{{-- <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> --}}
+<iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.9924191889627!2d31.458096715119648!3d30.23729268181261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56b8c0145c88bfbf!2zMzDCsDE0JzE0LjMiTiAzMcKwMjcnMzcuMCJF!5e0!3m2!1sen!2seg!4v1661372746355!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <div class="row mt-5">
@@ -16,7 +17,7 @@
     <div class="address">
       <i class="bi bi-geo-alt"></i>
       <h4>العنوان:</h4>
-      <p>A108 Adam Street, New York, NY 535022</p>
+      <p>86 شارع عبد الرحمن الرفاعي محليه 6 ج الحي الاول مدينة العبور ..العمارة بوجهة الشارع لونها ابيض الدور الاول</p>
     </div>
 
     <div class="email">
@@ -32,7 +33,7 @@
       <p>01120400501</p>
       <p>01067017771</p>
       <p>01005201913</p>
-      <p>01098528585</p>
+      
     </div>
 
   </div>
