@@ -8,7 +8,7 @@
       <div class="imag-container">
           <div class="container">
               <h2 class="animate__animated animate__fadeInDown"><span>مقابر مدينه اكتوبر الفيوم و الواحات</span></h2>
-              <a href="{{ route('contactus.index') }}"
+              <a href="https://api.whatsapp.com/send?phone=201003064001&app=facebook&entry_point=page_cta&fbclid=IwAR1mqcw3o6BCsm1DZM4jBLXNFaBi6sS__WINOXz2ghkcsR1PoNnGNwObG84"
                     class="btn-get-started animate__animated animate__fadeInUp scrollto">احجز معاينه مجانيه</a>
           </div>
       </div>

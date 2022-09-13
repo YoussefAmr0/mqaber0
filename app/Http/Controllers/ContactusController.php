@@ -14,8 +14,8 @@ class ContactusController extends Controller
      */
     public function index()
     {
-        $contactus = contactus::all();
-        return view("layout.Contactus", compact('contactus'));
+        // $contactus = contactus::all();
+        return view("layout.Contactus");
     }
 
     /**
@@ -25,7 +25,7 @@ class ContactusController extends Controller
      */
     public function create()
     {
-        return view("layout.Contactus");
+        // return view("layout.Contactus");
     }
 
     /**
@@ -36,14 +36,14 @@ class ContactusController extends Controller
      */
     public function store(Request $request)
     {
-        $contactus=new contactus();
-        $contactus->name = $request->input('name');
-        $contactus->mobile = $request->input('mobile');
-        $contactus->place = $request->input('place');
-        $contactus->day = $request->input('day');
-        $contactus->time = $request->input('time');
-        $contactus->save();
-        return redirect()->back();
+        // $contactus=new contactus();
+        // $contactus->name = $request->input('name');
+        // $contactus->mobile = $request->input('mobile');
+        // $contactus->place = $request->input('place');
+        // $contactus->day = $request->input('day');
+        // $contactus->time = $request->input('time');
+        // $contactus->save();
+        // return redirect()->back();
     }
 
     /**

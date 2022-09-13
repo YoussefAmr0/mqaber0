@@ -19,13 +19,19 @@
       <h4>العنوان:</h4>
       <p>86 شارع عبد الرحمن الرفاعي محليه 6 ج الحي الاول مدينة العبور ..العمارة بوجهة الشارع لونها ابيض الدور الاول</p>
     </div>
-
+  </div>
+</div>
+    <div class="col-lg-4">
+      <div class="info">
     <div class="email">
       <i class="bi bi-envelope"></i>
       <h4>البريد الالكتروني:</h4>
       <p>hamadaa_shalaby@hotmail.com</p>
     </div>
-
+  </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="info">
     <div class="phone">
       <i class="bi bi-phone"></i>
       <h4>للتواصل:</h4>
@@ -33,16 +39,16 @@
       <p>01120400501</p>
       <p>01067017771</p>
       <p>01005201913</p>
-      
+    </div>
+  </div>
     </div>
 
-  </div>
 
 </div>
 
 <div class="col-lg-8 mt-5 mt-lg-0">
 
-  <form action="{{route('contactus.store')}}" method="POST" role="form" class="php-email-form">
+  {{-- <form action="{{route('contactus.store')}}" method="POST" role="form" class="php-email-form">
     @csrf
     <div class="mt-3 form-group">
       <input type="text" name="name" class="form-control" id="name" placeholder="الاسم" required>
@@ -74,7 +80,7 @@
   </div>
 </div>
   <div class="text-center"><button type="submit">ارسال</button></div>
-</form>
+</form> --}}
 
 </div>
 
